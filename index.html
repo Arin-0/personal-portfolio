@@ -143,8 +143,30 @@
             </div>
          </section>
     </main>
-    <footer>
-        
+    <footer class="secondary-bg">
+        <div class="footer-colum">
+            <h3 class="section-title">Lets Connect</h3>
+            <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div>
+                <a href=""><img src="images/icons/facebook.png" alt="img"></a>
+                <a href=""><img src="images/icons/insta.png" alt=""></a>
+                <a href=""><img src="images/icons/twitter.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-colum">
+            <h3 class="section-title">Let's Inbox me</h3>
+            <form action="/submit" method="post">
+                <label for="name">
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="Your Email">
+                </label>
+                <label for="comments">comments:</label><br>
+                <textarea name="comments" id="comments" cols="30" rows="30" placeholder="Message"></textarea>
+                <input class="btn-primary" type="submit" value="submit">
+            </form>
+        </div>
     </footer>
 </body>
 </html>
